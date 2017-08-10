@@ -109,9 +109,10 @@ body {
   padding: 0 20px;
 }
 .cover .btn-lg {
-  margin-top: 18px;
+  margin-top: 15px;
   padding: 10px 20px;
   font-weight: bold;
+  margin-bottom: 15px;
 }
 
 
@@ -219,4 +220,7 @@ body {
 
 .dotstyle-fillup li.current a::after {
 	height: 100%;
+}
+#clicker{ 
+  margin-bottom: 10px;
 }
