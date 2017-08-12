@@ -16,37 +16,115 @@
         <!--jquery-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+        <!--round buttons from w3schools-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+
     </head>
     <body>
         <header>
             <h1> Transaction Log </h1>
+            <div id="showBox">
             <h2> Monthly report </h2> 
             <h2> ------ Aug ------ </h2>
+            <h1> $732.93 </h1>  
+            <p> Avaliable: $770.03  <button class="w3-button w3-xlarge w3-circle w3-teal">+</button> Pending: $55.25 </p>
+            </div>
         </header>
-        <div class="colorLabel">
+        <div class="colorLabel" id="label">
         <span class="label label-default">Bank of America</span>
         <span class="label label-primary">Citi Bank</span>
         <span class="label label-success">TD Bank</span>
         <span class="label label-info">Chase</span>
         <span class="label label-warning">Wells Fargo</span>
         </div>
+
         <div  class="colorCode">
-            <p id="citi">  Expense <br/> <img width="30px" height="10px" src="http://logok.org/wp-content/uploads/2014/04/Citi-logo-880x660.png"> Citi Bank --- number  amount of money </p>   
+            <div class="first">
+            <p id="citi"> Expense <br/> <img width="30px" height="10px" src="http://logok.org/wp-content/uploads/2014/04/Citi-logo-880x660.png"> Citi Bank --- number  amount of money</p>   
+            </div>
 
-            <p id="BankOfAmerica">  Expense <br/> <img width="30px" height="10px" src="https://about.bankofamerica.com/assets/images/flag-video-still-page.png"> Bank Of America ---   amount of monet </p>
+            <div class="check">
+            <p id="BankOfAmerica">  Expense <br/> <img width="30px" height="10px" src="https://about.bankofamerica.com/assets/images/flag-video-still-page.png"> Bank Of America ---   amount of money </p>
+            </div>
 
+            <div class="check">
             <p id="TDBank">  Expense <br/> <img width="30px" height="10px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Toronto-Dominion_Bank_logo.svg/2000px-Toronto-Dominion_Bank_logo.svg.png"> TDBank --- amount of money  </p>
+            </div>
 
+            <div class="check">
             <p id="Chase">  Expense <br/> <img width="30px" height="10px" src="http://www.cghnyc.com/wp-content/uploads/2014/07/01_Chase_light-1330x791.jpg"> Chase --- amount of money  </p>
+            </div>
 
+            <div class="check">
+            <p id="citi"> Expense <br/> <img width="30px" height="10px" src="http://logok.org/wp-content/uploads/2014/04/Citi-logo-880x660.png"> Citi Bank --- number  amount of money</p>   
+            </div>
+
+            <div class="check">
+            <p id="BankOfAmerica">  Expense <br/> <img width="30px" height="10px" src="https://about.bankofamerica.com/assets/images/flag-video-still-page.png"> Bank Of America ---   amount of money </p>
+            </div>
+
+            <div class="check">
+            <p id="TDBank">  Expense  <img width="30px" height="10px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Toronto-Dominion_Bank_logo.svg/2000px-Toronto-Dominion_Bank_logo.svg.png"> TDBank --- amount of money  </p>
+            </div>
+
+            <div class="check">
+            <p id="Chase">  Expense <br/> <img width="30px" height="10px" src="http://www.cghnyc.com/wp-content/uploads/2014/07/01_Chase_light-1330x791.jpg"> Chase --- amount of money  </p>
+            </div>
+        <div class="check">
+            <p id="citi"> Expense <br/> <img width="30px" height="10px" src="http://logok.org/wp-content/uploads/2014/04/Citi-logo-880x660.png"> Citi Bank --- number  amount of money</p>   
+            </div>
+
+            <div class="check">
+            <p id="BankOfAmerica">  Expense <br/> <img width="30px" height="10px" src="https://about.bankofamerica.com/assets/images/flag-video-still-page.png"> Bank Of America ---   amount of money </p>
+            </div>
+
+            <div class="check">
+            <p id="TDBank">  Expense  <img width="30px" height="10px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Toronto-Dominion_Bank_logo.svg/2000px-Toronto-Dominion_Bank_logo.svg.png"> TDBank --- amount of money  </p>
+            </div>
+
+            <div class="check">
+            <p id="Chase">  Expense <br/> <img width="30px" height="10px" src="http://www.cghnyc.com/wp-content/uploads/2014/07/01_Chase_light-1330x791.jpg"> Chase --- amount of money  </p>
+            </div>
+        <div class="check">
+            <p id="citi"> Expense <br/> <img width="30px" height="10px" src="http://logok.org/wp-content/uploads/2014/04/Citi-logo-880x660.png"> Citi Bank --- number  amount of money</p>   
+            </div>
+
+            <div class="check">
+            <p id="BankOfAmerica">  Expense <br/> <img width="30px" height="10px" src="https://about.bankofamerica.com/assets/images/flag-video-still-page.png"> Bank Of America ---   amount of money </p>
+            </div>
+
+            <div class="check">
+            <p id="TDBank">  Expense  <img width="30px" height="10px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Toronto-Dominion_Bank_logo.svg/2000px-Toronto-Dominion_Bank_logo.svg.png"> TDBank --- amount of money  </p>
+            </div>
+
+            <div class="check">
+            <p id="Chase">  Expense <br/> <img width="30px" height="10px" src="http://www.cghnyc.com/wp-content/uploads/2014/07/01_Chase_light-1330x791.jpg"> Chase --- amount of money  </p>
+            </div>
+            <div class="check">
             <p id="WellsFargo">  Expense <br/> <img width="30px" height="10px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Wells_Fargo_Bank.svg/1200px-Wells_Fargo_Bank.svg.png"> Wells Fargo --- amount of money  </p>
+            </div>
 
+            <div class="check">
             <p id="TDBank">  Expense <br/> <img width="30px" height="10px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Toronto-Dominion_Bank_logo.svg/2000px-Toronto-Dominion_Bank_logo.svg.png"> TDBank --- amount of money  </p>
+            </div>
 
-            <p id="citi">  Expense <br/> <img width="30px" height="10px" src="http://logok.org/wp-content/uploads/2014/04/Citi-logo-880x660.png"> Citi Bank --- amount of money  </p>
-
+            <div class="check" id="last">
+            <p id="citi">Expense <br/> <img width="30px" height="10px" src="http://logok.org/wp-content/uploads/2014/04/Citi-logo-880x660.png"> Citi Bank --- amount of money </p>
+            </div>
         </div>
 
-    
+
+
+  <div class="dotstyle dotstyle-fillup">
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">About</a></li>
+		<li><a href="#">Products</a></li>
+		<li><a href="#">Portfolio</a></li>
+		<li class="current"><a href="#">Blog</a></li>
+		<li><a href="#">Contact</a></li>
+	</ul>
+</div>
     </body>
 </html>
