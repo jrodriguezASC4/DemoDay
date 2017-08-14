@@ -28,22 +28,26 @@
         </header>
         <div class="alerts"> 
             <p id="alertsHeading">Alerts</p>
-            <input type="checkbox" name="bank"> Bank - typeOfAccount + money<br>
+            <input type="checkbox" name="bank" size="20"> Bank - typeOfAccount + money<br>
             <input type="checkbox" name="Payment">  Payment - timeOfPaymentDue<br>
+            <button type="button" class="calendar">Calendar</button>
         </div>
-        <div id="together">
-           </div class="first">
-                <p id="first">$money <br/> type</p>
+        <div id="currentStat">
+           </div class="first" >
+                <p id="first" class="checking">  $money  <br/> type </p>
+                
            </div>
 
            </div class="second">
-                <p id="second">$money <br/> type</p>
+                <p id="second" class="checking">$money <br/> type </p>
            </div>
 
            </div class="third">
-                <p id="third">$money <br/> type</p>
+                <p id="third" class="checking">$money <br/>
+                type</p>
            </div>
         </div>
+
         <button type="button" class="paymentButton">Payment</button>
 
     </body>
