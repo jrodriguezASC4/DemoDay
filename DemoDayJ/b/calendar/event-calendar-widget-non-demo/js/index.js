@@ -344,6 +344,7 @@
     { eventName: 'Demo Day!!', calendar: 'Work', color: 'blue', date: '2017-08-17' },
     { eventName: "Bao's day ;)", calendar: 'Kids', color: 'green', date: '2017-08-18' },
     { eventName: "Faisal gets rekt (10:30 AM)", calendar: 'Kids', color: 'green', date: '2017-08-19' }
+    
   ];
 
   
