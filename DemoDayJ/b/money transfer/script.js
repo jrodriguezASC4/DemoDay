@@ -8,6 +8,8 @@ jQuery(document).ready($ => {
 
     let enterCode = "";
     enterCode.toString();
+    
+    
 
     $("#numbers button").click(function() {
 
