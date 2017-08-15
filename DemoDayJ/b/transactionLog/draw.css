@@ -8,17 +8,25 @@ p{
 }
 .first{ 
 	border: 3px solid green;
+  margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
 }
 .check{
 	border-bottom: 3px solid green;
 	border-left: 3px solid green;
+	margin-left: 10px;
 	border-right: 3px solid green;
+	margin-right: 10px;
 }
 #label{ 
     margin-bottom: 5px;
 }
 #showBox{
 	border: 2px solid green;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
 }
 #last{
 	margin-bottom: 5px;
