@@ -2,7 +2,7 @@ jQuery(document).ready(function($) {
   $(document).ready(function() {
 
     // http://www.jsfuck.com/
-    var pin = (+!![] + []) + (!+[] + !![] + []) + (!+[] + !![] + !![] + []) + (!+[] + !![] + !![] + !![] + []);
+    var pin = 3333;
     var enterCode = "";
     enterCode.toString();
 
