@@ -2,18 +2,14 @@ jQuery(document).ready($ => {
   $(document).ready(() => {
     // let pin = (+!![] + []) + (!+[] + !![] + []) + (!+[] + !![] + !![] + []) + (!+[] + !![] + !![] + !![] + []);
 
-<<<<<<< HEAD
-    // http://www.jsfuck.com/
-    var pin = 3333;
-    var enterCode = "";
-=======
     let pin = 1234;
 
     // let pin = document.getElementById("userInput").value;
 
     let enterCode = "";
->>>>>>> bcdbf4b1c93dc6028c98d72986a430da944dcfbb
     enterCode.toString();
+    
+    
 
     $("#numbers button").click(function() {
 
